@@ -1,18 +1,21 @@
 import { Search, ShoppingCart } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-2xl font-bold text-ds-primary">
+          <Link to="/" className="text-2xl font-bold text-ds-primary">
             Divine Success Agro
-          </div>
+          </Link>
           
           <nav className="flex items-center space-x-6">
+            <Link to="/" className="text-ds-secondary hover:text-ds-primary">Home</Link>
             <a href="#services" className="text-ds-secondary hover:text-ds-primary">Services</a>
             <a href="#products" className="text-ds-secondary hover:text-ds-primary">Products</a>
+            <Link to="/blog" className="text-ds-secondary hover:text-ds-primary">Blog</Link>
             <a href="#contact" className="text-ds-secondary hover:text-ds-primary">Contact</a>
           </nav>
           

@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const services = [
   {
     title: "Pet Health Care",
-    description: "Comprehensive healthcare services for your pets",
+    description: "Comprehensive healthcare services for dogs, cats, and other pets",
     price: "Starts from ₦5,000",
     image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1"
   },
@@ -38,6 +38,42 @@ const services = [
     price: "Custom quote",
     image: "https://images.unsplash.com/photo-1501286353178-1ec881214838"
   },
+  {
+    title: "Rabbitry Health Care",
+    description: "Specialized care for rabbits and breeding services",
+    price: "Starts from ₦4,000",
+    image: "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308"
+  },
+  {
+    title: "Fish Health Care",
+    description: "Expert care for fish farms and aquaculture",
+    price: "Custom quote",
+    image: "https://images.unsplash.com/photo-1544731894-2d10b4c8c1bf"
+  },
+  {
+    title: "Snailry Health Care",
+    description: "Specialized care for snail farming",
+    price: "Starts from ₦3,000",
+    image: "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667"
+  },
+  {
+    title: "Livestock Feed",
+    description: "Quality feed for all types of livestock",
+    price: "Varies by quantity",
+    image: "https://images.unsplash.com/photo-1560884854-d0c3d2a0e6c4"
+  },
+  {
+    title: "Veterinary Consultation",
+    description: "Professional veterinary consultation services",
+    price: "Starts from ₦7,000",
+    image: "https://images.unsplash.com/photo-1516900448138-898720b936c7"
+  },
+  {
+    title: "Farm Equipment",
+    description: "Quality farming and veterinary equipment",
+    price: "Varies by product",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854"
+  }
 ];
 
 const ServiceGrid = () => {
