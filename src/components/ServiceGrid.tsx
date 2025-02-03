@@ -48,7 +48,7 @@ const services = [
     title: "Fish Health Care",
     description: "Expert care for fish farms and aquaculture",
     price: "Custom quote",
-    image: "https://images.unsplash.com/photo-1544731894-2d10b4c8c1bf"
+    image: "https://images.unsplash.com/photo-1535591273668-578e31182c4f"  // Updated image
   },
   {
     title: "Snailry Health Care",
@@ -60,7 +60,7 @@ const services = [
     title: "Livestock Feed",
     description: "Quality feed for all types of livestock",
     price: "Varies by quantity",
-    image: "https://images.unsplash.com/photo-1560884854-d0c3d2a0e6c4"
+    image: "https://images.unsplash.com/photo-1500595046743-cd271d694d30"  // Updated image
   },
   {
     title: "Veterinary Consultation",
