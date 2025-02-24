@@ -1,9 +1,11 @@
+
 import { useParams } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { blogPosts } from "@/data/blogPosts";
 
 const BlogDetail = () => {
   const { id } = useParams();
